@@ -1,7 +1,7 @@
 from typing import Union, Optional, AnyStr
 
-import aioredis
-from aioredis import Redis
+from redis import asyncio as aioredis
+from redis.asyncio import Redis
 
 from .base import BaseCacheBackend
 

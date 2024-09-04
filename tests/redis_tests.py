@@ -1,6 +1,6 @@
 from typing import Tuple, List, Any
 
-import aioredis
+from redis import asyncio as aioredis
 import pytest
 
 from fastapi_cache.backends.redis import RedisCacheBackend, RedisKey
